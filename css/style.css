@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: rgb(22, 37, 57);
+
+}
+
+
+
+@media (max-width:100px){
+
+}
+
+.logo1{
+    margin-top: 50px;
+    margin-left: 575px;
+}
+
+.nomentreprise{
+    color: aliceblue;
+   margin-left: 600px;
+}
+
+.cartedafrique{
+    margin-left: -130px;
+    margin-top: 70px;
+}
+
+.smsbienvenu{
+    font-style: bold;
+    font-size: xx-large;
+    color: rgb(250, 246, 246);
+    margin-top: 50px;
+    margin-left: -150px;
+
+}
+
+
+
+
+
+
+
