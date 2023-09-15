@@ -1,71 +1,68 @@
 *{
-    padding:0;
+    padding: 0;
     margin: 0;
-    background: rgb(30, 65, 80);
+    background: rgb(11, 38, 48);
 }
 
-body {
-    display: flex;
+.body{
     justify-content: center;
     align-items: center;
-   width: 100%;
+}
+.imgRotate{
+    transform: rotate(30deg);
 
 }
-
-.premiereparti {
-    width: 80%;
+.premiereparti img{
+    width: 700px;
+    height: 700px;
+}
+.premiereparti{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
 }
-.tyuriè{
-    height: 300px;
-    width: 300px;
-    background: url(/assets/mon\ logo.webp) 50% no-repeat;
-    background-size: cover;
-    margin-top: 30Px;
-    
-    
+
+@media screen and (max-width: 800px){ 
+    .premiereparti img{
+        width: 500px;
+        height: 50px;
+    }
+    .premiereparti{
+        display: flex;
+        justify-content: center;
+    }
     
 }
-.tyuriè12{
-    height: 50px;
-    width: 300px;
-    margin-bottom: 50px;
-}
-.tyuriè3{
-    height: 300px;
-    width: 70%;
-    background: url(/assets/Feature-Image_IBFCCA_1_a73698582755525bc16819be81480a08.jpg) 50% no-repeat;
-    background-size: cover;
-    margin-bottom: 200px;
-    margin-top: 30px;
-}
-.tyuriè1{
-    height: 50px;
-    width: 100%;
-    
+
+
+.premiereparti{
+    margin-top: 100px;
+    margin-left: 900px;
    
 }
 
+.cateafrique img{
+    width: 500px;
+    height:500px;
+}
+.cateafrique{
+  display: flex;
+  justify-content: center;
+}
+
+.nomentreprise{
+    font-size: xx-large;
+    color: aliceblue;
+    margin-left: 900px;
+    margin-top: 80px;
+}
+.nomentreprise h3{
+
+}
+
 .bienvenu{
-    margin-top: -80px;
-    color: aliceblue;
-    font-size: x-large;
+    font-size: xx-large;
+    color: white;
+    margin-top: 50px;
+    margin-left: 620px;
 }
-
-.nomdelentreprise{
-    color: aliceblue;
-    margin-top: -640px;
-}
-
-
-
-
-
-
-
-
-
 
