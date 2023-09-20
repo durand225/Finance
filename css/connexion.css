@@ -113,7 +113,7 @@ a {
   right: 4px;
   text-decoration: none;
   color: rgb(8, 8, 8);
-  background: rgb(74, 135, 145);
+  /* background: rgb(74, 135, 145); */
   border-radius: 10px;
   padding: 2px;
 }
@@ -139,3 +139,4 @@ h1 {
    
 
 }
+

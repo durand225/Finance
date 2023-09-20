@@ -1,68 +1,180 @@
 *{
     padding: 0;
-    margin: 0;
-    background: rgb(11, 38, 48);
-}
-
-.body{
-    justify-content: center;
-    align-items: center;
-}
-.imgRotate{
-    transform: rotate(30deg);
-
-}
-.premiereparti img{
-    width: 700px;
-    height: 700px;
-}
-.premiereparti{
-    display: flex;
-    justify-content: center;
-}
-
-@media screen and (max-width: 800px){ 
-    .premiereparti img{
-        width: 500px;
-        height: 50px;
-    }
-    .premiereparti{
-        display: flex;
-        justify-content: center;
-    }
-    
-}
-
-
-.premiereparti{
-    margin-top: 100px;
-    margin-left: 900px;
+    margin: 0%;
+    box-sizing: border-box;
+  
    
 }
 
-.cateafrique img{
-    width: 500px;
-    height:500px;
+
+
+html{
+    font-size: 62.5%;
+
 }
-.cateafrique{
+
+h1{
+   font-size: 2.6rem;
+}
+h2{
+    font-size: 4.8rem;
+}
+h3{
+    font-size: 3rem;
+}
+
+h4,
+h5{
+    font-size: 2.8rem;
+}
+
+li{
+   font-size: 2rem;
+}
+a{
+    color: rgb(0, 204, 255);
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.main-head{
+    background: rgb(0, 0, 0);
+    color: rgb(3, 223, 247);
+}
+
+nav{
+    min-height: 10vh;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 2rem;
+  margin: auto;
+
 }
 
-.nomentreprise{
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+
+#logo{
+    flex: 1 1 40rem;
     font-size: xx-large;
-    color: aliceblue;
-    margin-left: 900px;
-    margin-top: 80px;
-}
-.nomentreprise h3{
-
+    font-family: "pacifico",cursive;
+    font-weight: normal;
 }
 
-.bienvenu{
-    font-size: xx-large;
+/* titre */
+
+.titre{
+    min-height: 90vh;
+    background: url(../assets/microfinance-supervision.jpeg);
+    background-size: cover;
+    background-position: center;
     color: white;
-    margin-top: 50px;
-    margin-left: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
+.titre h2{
+    padding: 4rem;
+}
+
+.lg{
+    width: 400px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 200px;
+    transform: rotate(25deg);
+}
+
+.nom{
+    margin-left: 270px;
+    margin-top: 40px;
+    color: rgb(46, 189, 221);
+}
+
+.mot{
+    font-size: 50px;
+    font-style: oblique;
+    margin-left: 800px;
+    margin-top: -280px;
+    color: rgb(74, 181, 181);
+}
+.tof1{
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+
+}
+
+.tof2{
+    width: 800px;
+    height: 500px;
+    margin-left: 1100px;
+    margin-top: 200px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nous{
+    font-size: 50px;
+    margin-top: -1050px;
+    margin-left: 1000px;
+}
+
+.service{
+    font-size: 50px;
+    margin-top: 490px;
+    margin-left: 100px;
+}
+
+.cp{
+    width: 500px;
+    height: 120px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.pieddpage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    height: 150px;
+    margin-top: 200px;
+}
+
+.footernav ul{
+    display: flex;  
+}
+
+.footernav ul li{
+    margin-left: 30px;
+}
+
+.ico{
+
+}

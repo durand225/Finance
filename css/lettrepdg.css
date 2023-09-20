@@ -1,7 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    background: black;
+    
+}
+.body{
+    background: rgb(38, 49, 52);
+    width: 100vw;  
 }
 
 .bloc{
@@ -14,26 +18,30 @@
     height: 120px;
     transform: rotate(30deg);
     margin-top: 130px;
-    margin-left: 150px;
-    
+    margin-left: 230px;
+    align-items: center;
 }
 
 .nom{
     color: aliceblue;
-    margin-left: 130px;
+    margin-left: 220px;
     margin-top: 30px;
 }
 
 .papa{
     margin-top: 150px;
-    margin-left: 200px;
+    margin-left: 150px;
+    display: block;
+    align-items: center;
 
 }
 
 .motpdg{
     color: aliceblue;
     margin-top: -120px;
-    margin-left: 500px; 
+    margin-left: 420px; 
+    display: block;
+    align-items: center;
 }
 
 .lettre{
@@ -42,3 +50,4 @@
    margin-top: 250px;
    margin-left: 100px;
 }
+
