@@ -1,0 +1,99 @@
+*{
+   padding: 0;
+   margin: 0; 
+   
+
+}
+
+a{
+    color: rgb(0, 204, 255);
+    text-decoration: none;
+}
+
+.main-head{
+    background: rgb(0, 0, 0);
+    color: rgb(3, 223, 247);
+}
+
+nav{
+    min-height: 10vh;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 2rem;
+  margin: auto;
+  
+
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+    
+}
+
+
+#logo{
+    flex: 1 1 40rem;
+    font-size: xx-large;
+    font-family: "pacifico",cursive;
+    font-weight: normal;
+    color: rgb(10, 195, 241);
+}
+.largent{
+    width: 100%;
+    height: 5%;
+}
+
+
+.propo{
+    font-size: 70px;
+    margin-top: 300px;
+    color: rgb(14, 12, 12);
+    margin-left: 250px;
+}
+
+.textap{
+    font-size: 35px;
+    font-style: bold;
+    margin-top: -150px;
+    margin-left: 700px;
+}
+
+.img{
+    width: 700px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.fran{
+    font-size: 39px;
+    margin-top: -200px;
+    margin-left: 900px;
+}
+
+.equipe{
+    font-size: 39px;
+    margin-top: -330px;
+    margin-left: 1000px;
+    font-size: bold;
+}
+
+.deuximag{
+    width: 200px;
+    height: 200px;
+    margin-left: 1000px;
+    margin-top: 400px;
+}
+
+
+
+
+
+
+
