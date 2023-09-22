@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    color: rgb(0, 204, 255);
+    text-decoration: none;
+}
+.menuservice{
+        border-bottom: 2px solid rgb(230, 12, 12);
+}
+
+
+
+
+.main-head{
+    background: rgb(0, 0, 0);
+    color: rgb(3, 223, 247);
+}
+
+nav{
+    min-height: 4vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    margin: auto;
+  
+
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.mt{
+    font-size: 60px;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+.serv{
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.p{
+    margin-left: 800px;
+    font-size: 30px;
+
+}
+
+.q{
+    width: 400px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.d{
+    width: 500px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.c{
+    width: 500px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.z{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.k{
+    font-size: 35px;
+    margin-top: -40px;
+    margin-left: 800px;
+}
+
+.f{
+    font-size: 35px;
+    margin-top: -40px;
+    margin-left: 1400px;
+}
+
+.demande{
+    width: 50px;
+    margin-left: 900px;
+    margin-top: 150px;
+}
+
+
+

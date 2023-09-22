@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    
+}
+body{
+    background-color: rgb(5, 6, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #b8e0f3f8;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px  rgb(0, 0, 0, 0.2)
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+hr{
+    margin: 10px 0;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+.name-field{
+    display: flex;
+    width: 100%;
+    justify-self: space-between;
+}
+.name-field div{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-field div{
+    width: 49%;
+}
+
+label{
+    margin-bottom: 6px;
+}
+
+input{
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: 0;
+    border: 1px solid  rgba(235, 17, 17, 0);
+}
+
+input:focus {
+          border: 1px solid #17a2b8;
+}
+input[type="submit"]{
+    margin-top: 15px;
+    background-color: #17a2b8;
+    color: #eff2f5;
+    border: 1px solid #17a2b8;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+a{
+  text-decoration: 0;
+  color: #1f6bb8; 
+}
+p  a:hover {
+    text-decoration: underline;
+}
+
+.logo{
+    transform: rotate(30deg);
+    margin-top: 100px;
+}
+
+.nomentrepriseh3{
+    margin-top: 140px;
+    color: white;
+}
+
+.bienvenu{
+    color: aliceblue;
+    margin-top: -700px;
+    margin-left: -400px;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+.durand{
+   margin-top: 760px;
+   margin-left: -330px;
+  
+
+}
