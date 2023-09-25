@@ -13,12 +13,14 @@ a{
         border-bottom: 2px solid rgb(230, 12, 12);
 }
 
-
+body{
+    background-color: rgb(212, 236, 240);
+}
 
 
 .main-head{
     background: rgb(0, 0, 0);
-    color: rgb(3, 223, 247);
+    color: rgb(141, 184, 188);
 }
 
 nav{
