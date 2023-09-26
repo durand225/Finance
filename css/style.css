@@ -7,21 +7,19 @@
 
 
 body{
-    background-color: rgba(233, 243, 244, 0.881) ;
+    background-color: rgba(41, 127, 135, 0.881) ;
 }
 
 
 
-html{
-    font-size: 62.5%;
 
-}
 
 h1{
    font-size: 2.6rem;
 }
 h2{
     font-size: 4.8rem;
+    background-color: rgb(53, 46, 46);
 }
 h3{
     font-size: 3rem;
@@ -93,6 +91,7 @@ nav ul{
 
 }
 
+
 .titre h2{
     padding: 4rem;
 }
@@ -103,6 +102,7 @@ nav ul{
     margin-top: 80px;
     margin-left: 200px;
     transform: rotate(25deg);
+    background-color: rgb(52, 140, 140);
 }
 
 .nom{
@@ -116,7 +116,7 @@ nav ul{
     font-style: oblique;
     margin-left: 800px;
     margin-top: -280px;
-    color: rgb(74, 181, 181);
+    color: rgb(69, 190, 190);
 }
 .tof1{
     width: 700px;
@@ -127,7 +127,7 @@ nav ul{
 }
 
 .tof2{
-    width: 800px;
+    width: 80%;
     height: 500px;
     margin-left: 1100px;
     margin-top: 200px;
@@ -151,8 +151,9 @@ nav ul{
     font-size: 50px;
     margin-top: 490px;
     margin-left: 100px;
-    background-color: rgb(226, 239, 241);
-  
+    background-color: black rgb(226, 239, 241);
+  width: 100vw;
+  height: 1000px;
   
 }
 
