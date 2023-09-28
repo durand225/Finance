@@ -18,6 +18,7 @@ boutonid.addEventListener("click",(evnent)=>{
     }
     tabUser.push(user)
     localStorage.setItem('userliste',JSON.stringify(tabUser))
+
     
 
 })
