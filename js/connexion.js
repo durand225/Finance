@@ -25,19 +25,16 @@ boutonid.addEventListener("click",(event)=>{
     let tabUser = JSON.parse(localStorage.getItem("userList"));
     let passewordid = document.querySelector("#passeverif").value;
     let emailid = document.querySelector("#mailverif").value;
-
-
-    tabUser.forEach(element => {
-        if (emailid === element.emailid && passewordid === element.passewordid){
-            window.location.replace("../non_conn/text.html")
-        }
-        else{
-            window.location.reload()
-        }
-    });
+    if (!passewordid || !emailid) return alert("tout les champ sont obligatoire");
+    if (tabUser && tabUser.find(user=>user.emailid===emailid && user.passewordid === passewordid)) { 
+        console.log(tabUser.find(user=>user.emailid===emailid && user.passewordid === passewordid))
+        sessionStorage.setItem("sessionUser", JSON.stringify(tabUser.find(user=>user.emailid===emailid && user.passewordid === passewordid)))
+        alert ("connexion reçu")
+        return window.location.replace("../index.html")
+    }else{
+          alert ("mot de passe ou email incorecte")
+    }
     
-    tabUser.push(element)
-    localStorage.setItem('userList',JSON.stringify(tabUser))
 
     
 

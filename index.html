@@ -14,8 +14,9 @@
                     <li><a class="menuservice" href="#">acceuil</a></li>
                     <li><a href="./html/ apropos.html">A propos</a></li>
                     <li><a href="./html/service.html">service</a></li>
-                    <li><a href="./html/connexion.html">Connexion</a></li>
-                    <li> <button><a href="./html/inscription.html" class="www">inscription</a></button></li>
+                    <li class="none"><a href="./html/connexion.html">Connexion</a></li>
+                    <li hidden id="deconnexion"><a href="#!" >Déconnexion</a></li>
+                    <li class="none"> <button><a href="./html/inscription.html" class="www">inscription</a></button></li>
                 </ul>
             </nav>
         </header>
@@ -83,9 +84,14 @@
                 </div>
             </div>
         </footer>
-       
-            
-            
 </body>
 </html> 
+
+<script>
+    if(sessionStorage.sessionUser){
+        document.getElementById("deconnexion").hidden=false;
+    document.querySelectorAll(".none").forEach(li=>li.remove())   
+
+    }
+</script>
 

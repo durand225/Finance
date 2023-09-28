@@ -24,7 +24,8 @@
     top: 12px;
 }
 body{
-    background-color: rgb(5, 6, 5);
+    /* background-color: rgb(5, 6, 5); */
+    background: linear-gradient(0deg, #c8d1d4 0%, #98e8f4 100%);
     display: flex;
     align-items: center;
     justify-content: center;
