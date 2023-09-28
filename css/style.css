@@ -9,6 +9,7 @@ body{
     /* background: linear-gradient(0deg, #d89090 1%, #000 38%, #ffffff 71%); */
     background: linear-gradient(0deg, #d1e9e9 5%, #4e575a 40%, #6a7f91 43%, #a8c7d1 50%, #0f1010 73%);
 }
+
 .main-head{
     background: rgb(0, 0, 0);
     color: rgb(3, 223, 247);
@@ -20,7 +21,6 @@ nav{
   width: 90%;
   padding: 2rem;
   margin: auto;
-
 }
 button{
     background-color: rgb(21, 121, 160);
@@ -178,7 +178,7 @@ nav ul li a{
     overflow: hidden;
 }
 .form222 img{
-    height: 500px;
+    height: 400px;
     position: relative;
     top: 50px;
     left: 25%; 
@@ -250,5 +250,21 @@ footer{
     color: rgb(149, 225, 243);
     font-size: 34px;
 
+}
+
+@media screen and (max-width: 500px){
+    .main-head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav ul{ 
+        display: flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        text-align: right;
+        align-items:end;
+    }
+    
 }
 
