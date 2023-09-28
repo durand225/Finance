@@ -1,10 +1,10 @@
 let boutonid = document.querySelector("#boutonid");
-boutonid.addEventListener("click",(evnent)=>{
-    Event.preventDefault()
+boutonid.addEventListener("click",(event)=>{
+    event.preventDefault()
     let tabUser = JSON.parse(localStorage.getItem("userList")) || []
     let nameid = document.querySelector("#nameid").value;   
     let prenomid = document.querySelector("#prenomid").value;
-    let passwordid = document.querySelector("#passewordid").value;
+    let passewordid = document.querySelector("#passewordid").value;
     let emailid = document.querySelector("#emailid").value;
 
 
@@ -17,7 +17,7 @@ boutonid.addEventListener("click",(evnent)=>{
       
     }
     tabUser.push(user)
-    localStorage.setItem('userliste',JSON.stringify(tabUser))
+    localStorage.setItem('userList',JSON.stringify(tabUser))
 
     
 
