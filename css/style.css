@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0%;
     box-sizing: border-box;
+    /* box-shadow: 0 0 3px red inset; */
   
 }
 body{
@@ -77,6 +78,11 @@ nav ul li a{
 
 }
 
+.text1 p {
+    width: auto;
+}
+
+
 .text2{
     position: relative;
     bottom: 510px;
@@ -91,16 +97,20 @@ nav ul li a{
 }
 
 .form1{
-    width: 100%;
+    width: 80%;
     height: 600px;
     display: flex;
+    /* flex-wrap: wrap; */
     position: relative;
     bottom: 230px;
+    margin: 0 auto;
+    gap: 7rem;
 }
 
 .form2{
-    width: 30%;
+    width: 400px;
     height: 100%;
+    
 }
 .form2 img{
     height: 300px;
@@ -179,9 +189,10 @@ nav ul li a{
 }
 .form222 img{
     height: 400px;
-    position: relative;
+    margin-top: 15%;
+    /* position: relative;
     top: 50px;
-    left: 25%; 
+    left: 25%;  */
 }
 
 .form333{
@@ -189,28 +200,31 @@ nav ul li a{
     height: 100%;
     font-size: 40px;
     color: rgb(243, 248, 246);
-
 }
 
 .form333 p{
     position: relative;
-    top: 212px;
+    /* top: 212px; */
     font-size: 50px;
 
 }
 #azert1{
-    width: 100%;
+    width: 80%;
     height: 600px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 120px;
+    /* top: 120px; */
+    margin: 0 auto;
+    gap: 20px;
 }
 
 .form333 img{
-    position: relative;
-    top: 212px;
-    height: 150px;;
-    left: 20%;
+    /* position: relative; */
+    /* top: 212px; */
+    height: 150px;
+    /* left: 20%; */
 
 }
 
@@ -268,3 +282,8 @@ footer{
     
 }
 
+@media screen and (max-width: 768px){
+    .text1 p{
+        font-size: 40px;
+    }
+}
